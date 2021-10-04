@@ -1,0 +1,143 @@
+h1
+{
+	
+--couleur:0, 0, 0;
+margin: 2rem auto;
+display: flex;
+justify-content: center;
+font-family: 'Exo';
+color: white;
+text-shadow: 
+0 1px 0 #ccc, 
+0 2px 0 #acacac,
+0 3px 0 #a0a0a0,
+0 4px 0 #9b9a9a,
+0 5px 0 #888787,
+0 6px 1px rgba(var(--couleur),.1),
+0 0 5px rgba(var(--couleur),.1),
+0 1px 3px rgba(var(--couleur),.3),
+0 3px 5px rgba(var(--couleur),.3),
+0 5px 10px rgba(var(--couleur),.25),
+0 10px 10px rgba(var(--couleur),.2),
+0 20px 20px rgba(var(--couleur),.15);
+font-size: calc(100vw / 20)
+	
+	}
+h2{
+    font-family: cursive;
+    color: #ffffff;
+}
+.todo-button{
+    color: #fda6c6;
+    cursor: pointer;
+}
+
+body
+{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #fda6c6 0%, #eb4682 100%);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#carte
+{
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(252, 193, 218);
+    text-align:center;
+    align-content: center;
+    border-radius: 10px;
+}
+.carte  header{
+        font-size: 30px;
+        font-weight:600;
+}
+
+#cartes
+{
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(252, 193, 218);
+    text-align:center;
+    align-content: center;
+}
+.cartes .todoList{
+    max-height: 250px;
+    overflow-y: auto;
+
+}
+.todoList li{
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    background: #f2f2f2;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    font-family: cursive;
+    overflow: hidden;
+}
+.inputField input{
+    width: 85%;
+    height: 100%;
+    border: 1ph solid #ffb6e7;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+.todoList li button{
+     position: absolute;
+    right: 15px;
+    color: #fda6c6;
+    cursor: pointer;
+    top: 12px;
+    transition: transform 1s ease;
+}
+
+.todoList li button:hover{
+    background: rgb(0, 243, 20);
+    color: white;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    margin-top: 20ph;
+    justify-content: space-between;
+
+}
+.footer button{
+    position: absolute;
+    right: 235px;
+    color: #fda6c6;
+    top: 450px;
+}
+h3{
+    font-family: cursive;
+}
+.trash-btn,
+.complete-btn{
+      list-style: none;
+height: 45px;
+line-height: 45px;
+left: ;
+position: absolute;
+background: #f2f2f2;
+border-radius: ;
+text-decoration: none;
+font-size: 1rem;
+margin-bottom: 4px 2px;
+font-family: cursive;
+overflow: hidden;
+width: 36px;
+top: 283px;
+right: 0px;
+left: 1000px;
+}
+
+.todo-item{
+    padding: 0rem 0.5rem;
+}
